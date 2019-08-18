@@ -1,0 +1,151 @@
+
+#navbar-example2
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+}
+#navbar-example2 li a
+{
+ 
+   display: flex;
+   flex-wrap: wrap;
+}
+#navbar-example2 li a
+{
+ 
+   display: flex;
+   flex-wrap: wrap;
+      
+}
+
+/*---------SECTION Je suis developpeur---------*/
+.fondCode
+{
+   
+    display: flex;
+    flex-direction: row;
+
+}
+.integrateur
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+/*-----------A PROPOS------------*/
+.aPropos
+{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*-----------Media Querie------------*/
+@media(max-width: 1000px)
+{
+
+
+    .photoProfil
+    {
+       display: none;
+       text-align: justify;
+    }
+    .description
+    {
+        
+        text-align: center;
+    }
+
+
+}
+
+
+@media(max-width: 800px)
+{
+
+     #navbar-example2
+    {
+       
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+      
+        
+    }
+    .photoProfil
+    {
+       display: none;
+       text-align: justify;
+    }
+    .description
+    {
+        text-align: center;
+    }
+
+
+}
+@media(max-width: 660px)
+{
+
+    #navbar-example2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+
+    #navbar-example2 ul 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .photoProfil
+{
+   display: none;
+   text-align: justify;
+}
+}
+
+@media(max-width:300px)
+{
+
+    #navbar-example2 a
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+       
+        text-align: center;
+        
+    }
+
+
+    #navbar-example2 ul 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .photoProfil
+{
+   display: none;
+   text-align: justify;
+}
+}
