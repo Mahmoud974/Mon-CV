@@ -18,20 +18,26 @@ body, html
 {
     background-image: url("images/fond.jpg");
     height: 650px;
-    filter: grayscale(100%);
+    
  
 }
 
 .integrateur h1
 {
     align-items: center;
-    background-color: white;
+    background-color: #333;
     padding: 20px 50px;
-    color: black;
+   
+    color: white;
     margin: auto;
     text-align: center;
     text-transform: uppercase;
-    
+    box-shadow: 10px 10px 10px  black; 
+    cursor: pointer;
+}
+.integrateur h1:hover
+{
+    color: orange;
 }
 /*-----------A PROPOS------------*/
 .aPropos
@@ -54,9 +60,10 @@ body, html
 /*-----------COMPETENCE------------*/
 .competence
 {
-    background-image: url("images/startup.jpg");
+    background-color: #333;
+    
     height: 700px;
-    filter: grayscale(100%);
+   
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -72,6 +79,8 @@ body, html
     margin: 30px;
     height: 30px;
     font-size:30px;
+    box-shadow: 7px 9px 13px  black; 
+    
    
 }
 .auMillieu
@@ -99,9 +108,10 @@ flex-basis: 500px;
     display:flex;
     text-align: center;
     margin: 50px;
+    color: white;
 }
 #experience{
-    background: rgb(95, 111, 251);
+    background: rgb(61, 80, 246);
 }
 #experience .heading h{
     color: #fff;
