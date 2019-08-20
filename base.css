@@ -54,12 +54,14 @@
     {
        display: none;
        text-align: justify;
+      
     }
-    .description
-    {
-        
-        text-align: center;
+    #experience{
+        background: rgb(61, 80, 246);
+        display: flex;
+        height: auto;
     }
+    
 
 
 }
@@ -88,6 +90,11 @@
     {
         text-align: center;
     }
+    #experience{
+        background: rgb(61, 80, 246);
+        display: flex;
+        height: auto;
+    }
 
 
 }
@@ -112,12 +119,42 @@
         align-items: center;
         
     }
+    #experience
+    {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+    }
     
     .photoProfil
 {
    display: none;
    text-align: justify;
 }
+
+
+
+#experience li{
+    background: rgb(61, 80, 246);
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.timeline:before{
+   display: none;
+}
+
+.barreMeContactez ul
+{
+    display: flex;
+    color: white;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
 }
 
 @media(max-width:300px)
@@ -147,5 +184,10 @@
 {
    display: none;
    text-align: justify;
+}
+#experience{
+    background: rgb(61, 80, 246);
+    display: flex;
+    height: auto;
 }
 }
