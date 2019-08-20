@@ -133,18 +133,6 @@
 }
 
 
-
-#experience li{
-    background: rgb(61, 80, 246);
-    display: flex;
-    flex-direction: column;
-   
-}
-
-.timeline:before{
-   display: none;
-}
-
 .barreMeContactez ul
 {
     display: flex;
@@ -153,7 +141,34 @@
     flex-wrap: wrap;
     justify-content: center;
     
+    
 }
+.timeline-panel-container
+{
+    margin: 0;
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 10;
+}
+
+#experience li{
+    background: rgb(61, 80, 246);
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.timeline:before{
+   display: none;
+}
+
+
+/*----petit triangle---*/
+.timeline-panel:after{
+    
+    display:none;
+   
 
 }
 
@@ -189,5 +204,6 @@
     background: rgb(61, 80, 246);
     display: flex;
     height: auto;
+}
 }
 }

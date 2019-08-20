@@ -55,7 +55,7 @@ body, html
 }
 .aPropos .traitBleu
 {
-    width: 250px;
+    width: 100px;
     height: 4px;
     background-color: rgb(61, 80, 246);
     margin: 18px auto;
@@ -81,6 +81,7 @@ body, html
     background-color: rgb(61, 80, 246);
     justify-content: space-between;
     display: flex;
+    align-items: center;
     
 }
 .barreMeContactez ul
@@ -109,7 +110,7 @@ body, html
 }
 .traitBleu
 {
-    width: 250px;
+    width: 100px;
     height: 4px;
     background-color: rgb(61, 80, 246);
     margin: 18px auto;
@@ -146,6 +147,14 @@ flex-basis: 500px;
     display: flex;
     text-align: center;
     
+}
+.traitBlanc
+{
+    width: 100px;
+    height: 4px;
+    background-color:#fff;
+    margin: 18px auto;
+    padding: 0;
 }
 
 
@@ -221,6 +230,13 @@ flex-basis: 500px;
     position: relative;
     box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
     background: #fff;
+}
+.timeline-panel:hover
+{
+    
+    
+    background: #333;
+    color: #fff;
 }
 .timeline-panel-container-inverted .timeline-panel{
     float: left;
