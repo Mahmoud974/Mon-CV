@@ -21,6 +21,33 @@
       
 }
 
+/*-----------CONTACTEZ-MOI------------*/
+
+.barreMeContactez
+{
+    flex-basis: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  
+    
+    
+}
+.barreMeContactez li
+{
+    margin-right: 60px;
+
+}
+.blockContact
+{
+    display: block;
+}
+.barreMeContactez ul
+{
+    display: flex;
+   
+
+}
 /*---------SECTION Je suis developpeur---------*/
 .fondCode
 {
@@ -69,7 +96,14 @@
 
 @media(max-width: 800px)
 {
-
+    .competence
+{
+    
+    
+    height: 600px;
+   
+    
+}
      #navbar-example2
     {
        
@@ -96,10 +130,31 @@
         height: auto;
     }
 
+    .timeline:before{
+   
+        height: 1300px;
+    }
 
-}
+    
+
+
 @media(max-width: 660px)
 {
+
+    
+
+
+    .competence
+{
+    
+    
+    height: 600px;
+   
+    
+}
+ 
+   
+
 
     #navbar-example2
     {
@@ -121,14 +176,14 @@
     }
     #experience
     {
-        display: flex;
+        display: none;
         flex-direction: row;
         flex-grow: 1;
     }
     
     .photoProfil
 {
-   display: none;
+   display: flex;
    text-align: justify;
 }
 
@@ -143,32 +198,13 @@
     
     
 }
-.timeline-panel-container
-{
-    margin: 0;
-    display: flex;
-    flex-basis: 100%;
-    flex-grow: 10;
-}
-
-#experience li{
-    background: rgb(61, 80, 246);
-    display: flex;
-    flex-direction: column;
-    
-   
-}
 
 .timeline:before{
-   display: none;
+   
+    height: 1470px;
 }
 
 
-/*----petit triangle---*/
-.timeline-panel:after{
-    
-    display:none;
-   
 
 }
 
