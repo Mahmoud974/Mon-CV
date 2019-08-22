@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
@@ -18,8 +18,8 @@
     <body >
 
 
-      <!-----------------HEADER------------>
-        <nav id="navbar-example2" class=" navbar navbar-light bg-dark monMenu">
+      <!-----------HEADER------------>
+        <nav id="navbar-example2" class=" navbar navbar-light bg-dark monMenu"  >
             <a class="navbar-brand text-light userName" href="#">Zakaria MOUSSA</a>
             
             <ul class="nav nav-pills">
@@ -38,6 +38,35 @@
               
             </ul>
           </nav>
+
+             
+<nav class="deuxiemeMenu"  >
+  <div id="menuToggle">
+   
+    <input type="checkbox" />
+ 
+    <span></span>
+    <span></span>
+    <span></span>
+   
+    <ul id="menu">
+      <li class="nav-item">
+        <a class="nav-link material-icons" href="#aPropos">A PROPOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link material-icons" href="#competences">COMPETENCES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link material-icons" href="#experiences">EXPERIENCE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link material-icons" href="#contact">CONTACT</a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+
 
           <div data-spy="scroll" data-target="#navbar-example2" data-offset="0"> <!---SCROLLSPY-->
 
@@ -61,7 +90,7 @@
           <article class="container aPropos">
 
                 <div class="row">
-               <img src="images/profil.png " class=" mx-auto photoProfil "> 
+               <img alt="photo de profil" src="images/profil.png " class=" mx-auto photoProfil "> 
 
 
                <div class=" mx-auto description">
@@ -76,7 +105,7 @@
                         <button type="button" class="btn btn-outline-primary " >ENVOYEZ-MOI UN MESSAGE</button>
                         <button type="button" class="btn btn-outline-secondary " style="margin-left: 10px; " >TELECHARGER CV</button>
     </div>
-                    </p>
+                    
     </div> 
           </article>
 
@@ -87,11 +116,11 @@
               <div class="container bet">
                 <ul>
                     <li><span><i class="fa fa-user" aria-hidden="true"></i>
-                    </span><strong> Nom:</strong> </br>MOUSSA Mahamoud</li>
-                    <li><span><i class="fa fa-birthday-cake" aria-hidden="true"></i></span><strong> Date de Naissance:</strong> </br>28/05/1992</li>
-                    <li><span><i class="fa fa-home" aria-hidden="true"></i></span><strong> Adresse:</strong></br>58 rue Paul Bert </br>26000 Valence</li>
-                    <li><span><i class="fa fa-phone" aria-hidden="true"></i></span><strong> Téléphone:</strong> </br>(+33) 669 79 42 73</li>
-                    <li><span><i class="fa fa-envelope" aria-hidden="true"></i></span><strong> Email:</strong> </br>manuscrit974@gmail.com</li>
+                    </span><strong> Nom:</strong> <br>MOUSSA Mahamoud</li>
+                    <li><span><i class="fa fa-birthday-cake" aria-hidden="true"></i></span><strong> Date de Naissance:</strong> <br>28/05/1992</li>
+                    <li><span><i class="fa fa-home" aria-hidden="true"></i></span><strong> Adresse:</strong><br>58 rue Paul Bert <br>26000 Valence</li>
+                    <li><span><i class="fa fa-phone" aria-hidden="true"></i></span><strong> Téléphone:</strong> <br>(+33) 669 79 42 73</li>
+                    <li><span><i class="fa fa-envelope" aria-hidden="true"></i></span><strong> Email:</strong> <br>manuscrit974@gmail.com</li>
 
 
                 </ul>
@@ -142,11 +171,15 @@
                         </div>
 
              </div>
+            </div>
+          </div>
+
+
                
 
           </section>
  
-<!-------EXPERIENCE------>
+<!-----EXPERIENCE------>
 
 <section id="experience">
         
@@ -219,7 +252,7 @@
             
         </section>
 
-        <!-------CONTACT------>
+        <!-----CONTACT------>
       
         <section class="container-fluid FondContact">
 
@@ -272,8 +305,8 @@
               </form>
 
 
-</div>
-
+            </div>
+          </div>
 
 
 
@@ -281,7 +314,7 @@
 
         </section>
 
-        <!-------FOOTER------>
+        <!----FOOTER----->
 
         <footer class="container-fluid footer">
 
