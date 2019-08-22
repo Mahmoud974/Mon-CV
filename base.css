@@ -45,7 +45,7 @@
 .barreMeContactez ul
 {
     display: flex;
-   
+    
 
 }
 /*---------SECTION Je suis developpeur---------*/
@@ -96,6 +96,40 @@
 
 @media(max-width: 800px)
 {
+    .fondCode
+    {
+        display: none;
+    }
+    .bet 
+    {
+        margin: 0;
+        padding: 30px;
+    }
+    .barreMeContactez ul
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+   
+    }
+   
+
+    .barreMeContactez ul li
+    {
+       
+        padding-top: 10px;
+    
+    }
+
+    .barreMeContactez
+{
+    
+    height: auto;
+    background-color: rgb(61, 80, 246);
+    
+    
+}
+ 
     .competence
 {
     
@@ -132,7 +166,7 @@
 
     .timeline:before{
    
-        height: 1300px;
+        height: auto;
     }
 
     
@@ -141,16 +175,12 @@
 @media(max-width: 660px)
 {
 
-    
-
-
+   
     .competence
 {
-    
-    
+
     height: 600px;
-   
-    
+  
 }
  
    
@@ -176,14 +206,14 @@
     }
     #experience
     {
-        display: none;
+        
         flex-direction: row;
         flex-grow: 1;
     }
     
     .photoProfil
 {
-   display: flex;
+   display: none;
    text-align: justify;
 }
 
@@ -203,8 +233,6 @@
    
     height: 1470px;
 }
-
-
 
 }
 
@@ -243,3 +271,4 @@
 }
 }
 }
+
