@@ -73,7 +73,7 @@
 }
 
 /*-----------Media Querie------------*/
-@media(max-width: 2000px)
+@media(min-width:1000px)
 {
  .deuxiemeMenu
  {
@@ -95,15 +95,8 @@
         display: flex;
         height: auto;
     }
-    
 
-
-}
-
-
-@media(max-width: 800px)
-{
-    .deuxiemeMenu
+      .deuxiemeMenu
  {
     display: block;
  }
@@ -188,7 +181,101 @@
         height: auto;
     }
 
+
+}
+
+
+
+@media(max-width: 800px)
+{
+
+    .timeline:before{
+   
+        height: auto;
+    } 
+    .deuxiemeMenu
+ {
+    display: block;
+ }
+    .barreBleu
+    {
+        visibility: hidden;
+    }
     
+    .monMenu
+    {
+        visibility: hidden;
+    }
+
+    .fondCode
+    {
+        display: none;
+    }
+    .bet 
+    {
+        margin: 0;
+        padding: 30px;
+    }
+    .barreMeContactez ul
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+   
+    }
+   
+
+    .barreMeContactez ul li
+    {
+       
+        padding-top: 10px;
+    
+    }
+
+    .barreMeContactez
+{
+    
+    height: auto;
+    background-color: rgb(61, 80, 246);
+    
+    
+}
+ 
+    .competence
+{
+    
+    height: 600px;
+
+}
+     #navbar-example2
+    {
+       
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        height: 0;
+      
+        
+    }
+    .photoProfil
+    {
+       display: none;
+       text-align: justify;
+    }
+    .description
+    {
+        text-align: center;
+    }
+    #experience{
+        background: rgb(61, 80, 246);
+        display: flex;
+        height: auto;
+    }
+
+    
+
+
 
 
 @media(max-width: 660px)
@@ -250,9 +337,10 @@
     
 }
 
+
 .timeline:before{
    
-    height: 1470px;
+    height: auto;
 }
 
 
