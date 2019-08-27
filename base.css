@@ -21,6 +21,43 @@
       
 }
 
+
+/*---------SECTION Je suis developpeur---------*/
+.integrateur h1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fondCode
+{
+   
+    display: flex;
+    flex-direction: row;
+
+}
+.integrateur
+{
+    display: flex;
+    flex-direction: row;
+
+}
+/*-----------A PROPOS------------*/
+.aPropos
+{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.description .mesButtons
+{
+    flex-basis: 200px; 
+    display: flex;
+    
+}
 /*-----------CONTACTEZ-MOI------------*/
 
 .barreMeContactez
@@ -48,41 +85,73 @@
     
 
 }
-/*---------SECTION Je suis developpeur---------*/
-.fondCode
-{
-   
-    display: flex;
-    flex-direction: row;
 
-}
-.integrateur
-{
-    display: flex;
-    flex-direction: row;
+/*-----------COMPETENCE------------*/
 
-}
-
-/*-----------A PROPOS------------*/
-.aPropos
+.competence   
 {
     
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+.auMillieu
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    flex-basis: 500px;
+   
+}
+/*-----------EXPERIENCE------------*/
+.heading 
+{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+    
+}
+/*--------CONTACT-------*/
+.FondContact
+{
+   
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+}
+/*--------FOOTER-------*/
+
+.footer
+{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
 
 /*-----------Media Querie------------*/
 @media(min-width:1000px)
 {
- .deuxiemeMenu
- {
-    display: none;
- }
+    .deuxiemeMenu
+    {
+        display: none;
+    }
 }
+
 @media(max-width: 1000px)
 {
-
+    .deuxiemeMenu
+    {
+       display: block;
+    }
+    .fondCode
+    {
+        display: none;
+    }
 
     .photoProfil
     {
@@ -90,30 +159,22 @@
        text-align: justify;
       
     }
+  
+    .monMenu
+    {
+        visibility: hidden;
+    }
     #experience{
         background: rgb(61, 80, 246);
         display: flex;
         height: auto;
     }
 
-      .deuxiemeMenu
- {
-    display: block;
- }
     .barreBleu
     {
         visibility: hidden;
     }
     
-    .monMenu
-    {
-        visibility: hidden;
-    }
-
-    .fondCode
-    {
-        display: none;
-    }
     .bet 
     {
         margin: 0;
@@ -126,24 +187,17 @@
         padding-top: 20px;
    
     }
-   
-
     .barreMeContactez ul li
     {
-       
         padding-top: 10px;
-    
     }
 
     .barreMeContactez
 {
-    
     height: auto;
     background-color: rgb(61, 80, 246);
     
-    
 }
- 
     .competence
 {
     
@@ -161,11 +215,7 @@
       
         
     }
-    .photoProfil
-    {
-       display: none;
-       text-align: justify;
-    }
+   
     .description
     {
         text-align: center;
@@ -188,28 +238,43 @@
 
 @media(max-width: 800px)
 {
-
-    .timeline:before{
-   
-        height: auto;
-    } 
-    .deuxiemeMenu
- {
-    display: block;
- }
-    .barreBleu
-    {
-        visibility: hidden;
-    }
-    
     .monMenu
     {
         visibility: hidden;
     }
-
     .fondCode
     {
         display: none;
+    }
+    
+    .deuxiemeMenu
+ {
+    display: block;
+ }
+ #navbar-example2
+    {
+       
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        height: 0;
+      
+        
+    }
+    
+ .photoProfil
+    {
+       display: none;
+       text-align: justify;
+    }
+    .description
+    {
+        text-align: center;
+    }
+    .barreBleu
+    {
+        visibility: hidden;
     }
     .bet 
     {
@@ -223,8 +288,6 @@
         padding-top: 20px;
    
     }
-   
-
     .barreMeContactez ul li
     {
        
@@ -233,65 +296,56 @@
     }
 
     .barreMeContactez
-{
+    {
     
     height: auto;
     background-color: rgb(61, 80, 246);
     
+    }
     
-}
- 
     .competence
-{
+    {
+        height: 600px;
+    }
+     
     
-    height: 600px;
-
-}
-     #navbar-example2
-    {
-       
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        height: 0;
-      
-        
-    }
-    .photoProfil
-    {
-       display: none;
-       text-align: justify;
-    }
-    .description
-    {
-        text-align: center;
-    }
     #experience{
         background: rgb(61, 80, 246);
         display: flex;
         height: auto;
     }
-
+    .timeline:before{
+   
+        height: auto;
+    } 
     
-
-
-
 
 @media(max-width: 660px)
 {
 
     
-   
-    .competence
-{
+    .photoProfil
+    {
+       display: none;
+       text-align: justify;
+    }
+    .barreMeContactez ul
+    {
+    display: flex;
+    color: white;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    }
+        .competence
+        {
 
     height: 600px;
   
-}
+        }
  
-   
-
 
     #navbar-example2
     {
@@ -319,29 +373,12 @@
         flex-grow: 1;
     }
     
-    .photoProfil
-{
-   display: none;
-   text-align: justify;
-}
-
-
-.barreMeContactez ul
-{
-    display: flex;
-    color: white;
-    margin: auto;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    
-}
-
-
-.timeline:before{
+    .timeline:before
+    {
    
     height: auto;
-}
+    }
+   
 
 
 }
@@ -349,13 +386,37 @@
 @media(max-width:300px)
 {
 
-    #navbar-example2 a
+      
+    .photoProfil
+    {
+       display: none;
+       text-align: justify;
+    }
+    .barreMeContactez ul
+    {
+    display: flex;
+    color: white;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    }
+        .competence
+        {
+
+    height: 600px;
+  
+        }
+ 
+
+    #navbar-example2
     {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-       
-        text-align: center;
+        align-items: center;
+        height: 1px;
         
     }
 
@@ -368,18 +429,18 @@
         align-items: center;
         
     }
+    #experience
+    {
+        
+        flex-direction: row;
+        flex-grow: 1;
+    }
     
-    .photoProfil
-{
-   display: none;
-   text-align: justify;
-}
-#experience{
-    background: rgb(61, 80, 246);
-    display: flex;
+    .timeline:before
+    {
+   
     height: auto;
-}
-
+    }
 }
 }
 
